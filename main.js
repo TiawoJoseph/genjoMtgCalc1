@@ -23,6 +23,8 @@ var r= ri/12;
 var aa = 1+r;
 var m = Math.round((p*r) * Math.pow(aa,n)/(Math.pow(aa,n)-1));
 // console.log((p*r) * Math.pow(aa,n)/(Math.pow(aa,n)-1));
+
+alert(m,p,nip1);
 document.getElementById("monthly-pymt").innerHTML ="Your Monthly payment is $" +m;
 document.getElementById("Mtg_Amt").innerHTML="$"+p;
 document.getElementById("Mtg-Length").innerHTML=nip1+" years"
