@@ -3,6 +3,15 @@
     color: white;
 }
 
+h1{
+    background: none;
+}
+div .mb-3{
+    background: none;
+}
+p{
+    background: none;
+}
 .nav{
     background-color: black;
     padding-top: 2%;
@@ -30,11 +39,35 @@
 }
 
 #frm1{
-    width:50%;
+    width:40%;
     padding:7%;
     background: radial-gradient(99.52% 249.73% at 100% 3.98%, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%);
     border: 2px solid rgba(255, 255, 255, 0.24);
     filter: drop-shadow(15px 15px 50px rgba(0, 0, 0, 0.07));
     backdrop-filter: blur(42px);
     border-radius: 20px;
+}
+
+.result_card{
+    width:40%;
+    padding:7%;
+    background: radial-gradient(99.52% 249.73% at 100% 3.98%, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%);
+    border: 2px solid rgba(255, 255, 255, 0.24);
+    filter: drop-shadow(15px 15px 50px rgba(0, 0, 0, 0.07));
+    backdrop-filter: blur(42px);
+    border-radius: 20px;
+}
+
+.form-label{
+    background: none;
+}
+
+.body-cont{
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* background-color: yellow; */
+    height: 75vh;
+    width:100%;
+    /* justify-content: space-between; */
+
 }
