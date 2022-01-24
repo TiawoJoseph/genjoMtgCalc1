@@ -22,32 +22,38 @@
 
 <section class="body">
 
-  <div class="card container">
+  <div class="cardt container">
       <H2>Mortgage Details</H2>
-        <form>
+        <form id="frm1">
                 <div class="mb-3">
                   <label for="$500k" class="form-label">Mortgage Amount</label>
-                  <input type="amount" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <input type="amount" class="form-control" id="Mtgamt" aria-describedby="emailHelp" placeholder="$300,000">
                 </div>
 
                 <div class="mb-3">
                         <label for="$500k" class="form-label">Mortgage Length</label>
-                        <input type="amount" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <input type="amount" class="form-control" id="MtgAmort" aria-describedby="emailHelp"  placeholder="30 years">
                 </div>
 
                 <div class="mb-3">
                     <label for="$500k" class="form-label">Payment Frequency</label>
-                    <input type="amount" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <input type="amount" class="form-control" id="Mtgpymtfreq" aria-describedby="emailHelp" placeholder="12, monthly">
                 </div>
 
                 <div class="mb-3">
                         <label for="$500k" class="form-label">Interest Rate</label>
-                        <input type="amount" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <input type="amount" class="form-control" id="interestrate" aria-describedby="emailHelp"  placeholder="5%">
                     </div>
                       
                 <button type="submit" class="btn btn-primary" onclick="btn()">Submit</button>
               </form>
   </div>
+  <h1>Payments</h1>
+  <p id="monthly-pymt"> </p>
+  <h1>Mortgage Principal Amount</h1>
+  <p id="Mtg_Amt"></p>
+  <h1>Mortgage Length</h1>
+  <p id="Mtg-Length"></p>
 </section>
 
 
